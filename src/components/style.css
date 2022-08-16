@@ -1,0 +1,394 @@
+.bg-color {
+  background-color: rgb(240, 240, 240);
+}
+.font_family {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+.opactity {
+  color: #00000087;
+  font-size: 15px;
+}
+.color {
+  color: rgba(233, 119, 48);
+}
+.h-35 {
+  height: 35px;
+}
+.light {
+  background-color: #fff;
+  color: black;
+}
+.image-one {
+  background-image: url("../images/interior.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+}
+.image-two {
+  background-image: url("../images/interiorLS.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 666px;
+  min-height: 238px;
+}
+.image-three {
+  background-image: url("../images/interiorThree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  min-height: 238px;
+}
+.image-one-heading {
+  text-transform: uppercase;
+  color: #fff;
+}
+.in {
+  background-color: rgba(233, 119, 48);
+}
+.de {
+  background-color: #006400;
+}
+.fu {
+  background-color: #ffb6c1;
+}
+/*  */
+
+.our-projects-image-main {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.our-projects-img-card-background-one {
+  background-image: url("../images/interiorLS.jpg");
+}
+.our-projects-img-card-background-two {
+  background-image: url("../images/interiorLS.jpg");
+}
+.our-projects-img-card-background-three {
+  background-image: url("../images/interiorLS.jpg");
+}
+.our-projects-img-card-background-four {
+  background-image: url("../images/interiorLS.jpg");
+}
+.our-projects-img-card {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  width: 308px;
+}
+
+.projects-img {
+  display: block;
+  width: 99%;
+  height: auto;
+}
+
+.our-projects-animation {
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  height: 20%;
+  transition: 0.5s ease;
+  text-align: center;
+}
+
+.our-projects-img-card:hover .our-projects-animation {
+  height: 66%;
+  background-color: transparent;
+}
+
+.our-projects-img-card .small-button {
+  display: none;
+}
+
+.our-projects-img-card:hover .small-button {
+  display: block;
+  width: 330px !important;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 14px;
+}
+.our-projects-desc {
+  font-weight: 300;
+}
+.add-favrite {
+  padding-bottom: 72px;
+}
+.our-projects-title {
+  font-weight: 600;
+  font-size: 18px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  background-color: transparent();
+  color: #2e2e2e;
+  width: 77%;
+  display: flex;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.border-after {
+  border: 1px solid #00000059;
+  width: 35px;
+  border-radius: 1px;
+  background-color: #ffff;
+  height: 24px;
+}
+.small-button {
+  color: #fff;
+  background-color: black;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+.price {
+  top: 250px;
+  position: absolute;
+  color: #00000087;
+  font-size: 12px;
+  font-family: "Ubuntu";
+  font-weight: 500;
+}
+.social-icons {
+  font-size: 18px;
+  color: #00000087;
+}
+.desc {
+  font-size: 13px;
+  width: 43%;
+  text-align: center;
+  color: #00000087;
+  font-family: "Ubuntu";
+  font-weight: 500;
+}
+.subscribe-btn {
+  background-color: rgba(233, 119, 48);
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  font-size: 13px;
+  font-family: "Ubuntu";
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+.form-control {
+  width: 75%;
+  color: #f0f0f0bd;
+  font-size: 12px;
+  padding-left: 22px;
+  font-family: "Ubuntu";
+  font-weight: 500;
+}
+.NewsLetter {
+  margin-bottom: 0px;
+}
+.NewsLetter {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000000ab;
+}
+.subscribe-desc {
+  font-size: 12px;
+  font-weight: 500;
+  color: #00000073;
+}
+.we-are {
+  font-size: 20px;
+}
+.straight-line {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  height: 1px;
+  width: 100%;
+  border-top: 1px solid #80808042;
+}
+.this-month {
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: "Ubuntu";
+  color: #000000ba;
+  font-size: 19px;
+}
+.latest-image-two {
+  background-image: url("../images/interiorLS.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  width: 483px;
+  position: relative;
+}
+.lastes-product {
+  font-size: 25px;
+}
+.small-straight-line {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  height: 1px;
+  width: 2%;
+  border-top: 2px solid #80808042;
+}
+.circle {
+  height: 9px;
+  width: 9px;
+  border: 2px solid rgba(233, 119, 48);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 8px;
+}
+.latest-top {
+  top: 203px;
+}
+.latest-outer {
+  border: 3px solid #fff;
+  height: 46%;
+  width: 74%;
+}
+.latest-inner {
+  color: #80808042;
+  background-color: #fff;
+  width: 98%;
+  height: 98%;
+  text-align: center;
+  padding: 5px;
+}
+.lat {
+  font-size: 37px;
+}
+.latest {
+  color: #555353;
+  letter-spacing: 6px !important;
+  font-family: "Ubuntu";
+  font-weight: bolder;
+}
+.image-bed {
+  background-image: url("../images/interiorLS.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  min-height: 238px;
+}
+.image-sofa {
+  background-image: url("../images/interior.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 688px;
+  min-height: 238px;
+}
+.image-chair {
+  background-image: url("../images/interiorThree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  min-height: 238px;
+}
+.small-heading {
+  color: #ffff;
+  font-family: "Ubuntu";
+  font-weight: 600;
+  font-size: 16px;
+}
+.small-desc {
+  color: #ffff;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 11px;
+}
+.soffa-heading {
+  font-family: "Ubuntu";
+  font-weight: 600;
+  color: #555353;
+}
+.office-soffa {
+  background-image: url("../images/officeSoffa.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 637px;
+  height: 500px;
+}
+.modern-soffa-price {
+  top: unset;
+}
+.modern-soffa-price {
+  color: #555353;
+  font-size: 16px;
+  text-decoration: none;
+}
+.delete-color {
+  color: #5553538a;
+}
+.modren-soffa-desc {
+  width: 86%;
+  font-size: 15px;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  color: #808080e8;
+}
+.increment-decrement-btn {
+  border: none !important;
+  outline: none !important;
+  width: 26px;
+  height: 35px;
+}
+.mb-5-modren-soffa {
+  margin-bottom: 7rem !important;
+}
+.mt-5-modren-soffa {
+  margin-top: 7rem !important;
+}
+.modren-soffa-input-main {
+  width: 36%;
+  border: 1px solid #80808070;
+}
+.modren-soofa-input {
+  width: 47%;
+  border: none;
+  padding: 6px;
+}
+.modren-soffa-btn {
+  color: #fff;
+  background-color: black;
+  padding: 6px 26px;
+  font-size: 13px;
+  font-family: "Ubuntu";
+  font-weight: 400;
+}
+.modren-soffa-favitre {
+  padding: 5px;
+}
+.carousel-inner {
+  height: 344px;
+}
+.carousel-item {
+  min-width: 98%;
+}
+.carousel-control-prev {
+  left: -128px;
+  width: 17%;
+  padding-right: 15px;
+}
+.carousel-control-next {
+  right: -110px;
+  width: 17%;
+  padding-left: 64px;
+}
+.slider-next-pre {
+  color: #150a0a;
+  font-size: 39px;
+}
+.carousel-indicators {
+  left: 0 !important;
+  right: unset !important;
+  margin-left: 6%;
+}

@@ -1,0 +1,31 @@
+.white-bg {
+  background-color: #fff;
+}
+.fa-solid,
+.fas {
+  font-size: 18px;
+}
+.logo-text {
+  font-family: "Ubuntu";
+  font-weight: 600;
+  color: #000000b3;
+}
+ul li a {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  color: #000000b3 !important;
+}
+.active {
+  color: rgba(233, 119, 48) !important;
+}
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: rgba(233, 119, 48);
+  border-radius: 50%;
+  display: inline-block;
+}
+.pointer-cursor {
+  cursor: pointer;
+}
